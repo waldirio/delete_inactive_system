@@ -1,1 +1,3 @@
-# delete_inactive_system
+# delete_inactive_systems
+
+Script used to remove inactive systems from Satellite.
