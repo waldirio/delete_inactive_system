@@ -10,7 +10,7 @@
 # 
 
 LOG="/var/log/inactive_satellite.log"
-MIN_DAYS=30
+MIN_DAYS=6
 
 # Initial time
 echo "Starting"		| tee -a $LOG
