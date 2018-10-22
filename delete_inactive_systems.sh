@@ -13,7 +13,7 @@ LOG="/var/log/inactive_satellite.log"
 MIN_DAYS=6
 
 # Initial time
-echo "Starting"		| tee -a $LOG
+echo "Starting"	| tee -a $LOG
 $(echo date) 		| tee -a $LOG
 
 # Generate the list of Content Hosts with lastcheckin greather then MIN_DAYS
